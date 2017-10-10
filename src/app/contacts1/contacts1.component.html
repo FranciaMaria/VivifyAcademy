@@ -1,0 +1,13 @@
+<p>
+  {{title}}
+</p>
+
+<ul>
+	<li>{{names[0]}}</li>
+	<li>{{names[1]}}</li>
+	<li>{{names[2]}}</li>
+	<li *ngFor="let name of names">{{name}}</li>
+</ul>
+
+<p *ngIf="isVisible">I'm visible.</p>
+<p *ngIf="!isVisible">I'm not visible.</p>
