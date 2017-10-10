@@ -8,13 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class Contacts1Component  {
 
   	
- 	title = "Hello, World!";
+ 	title:string = "Hello, World!";
 
  	names:Array<string> = ['John', 'Doe', 'Michael'];
 
- 	isVisible:boolean = true;
+ 	isVisible:boolean = false;
 
- 	link = "https://www.google.com";
+ 	link:string = "https://www.google.com";
+
+ 	user:Object = {
+ 		firstName: 'Maria',
+ 		lastName: 'Francia',
+ 		email: 'mf@live.com'
+ 	}
   
  
 
