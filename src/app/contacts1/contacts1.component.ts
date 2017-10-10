@@ -13,6 +13,8 @@ export class Contacts1Component  {
  	names:Array<string> = ['John', 'Doe', 'Michael'];
 
  	isVisible:boolean = true;
+
+ 	link = "https://www.google.com";
   
  
 
